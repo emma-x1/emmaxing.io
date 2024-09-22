@@ -80,44 +80,25 @@ const AboutMe = () => {
 
   const languages = [
     "JavaScript",
-    "TypeScript",
     "Python",
     "C",
     "C++",
-    "C#",
-    "GraphQL",
-    "Java",
-    "Swift",
-    "SQL",
     "HTML",
-    "CSS",
-    "Go",
+    "CSS"
   ]
 
   const technologies = [
-    "Node",
-    "React",
-    "React Native",
-    "Redux",
-    "Vue",
-    "Flutter",
-    "Express",
-    ".NET",
-    "Flask",
-    "Django",
+    "Github", 
+    "VS Code",
+    "Docker", 
+    "EasyEDA",
+    "Altium",
   ]
 
   const tools = [
-    "Azure",
-    "AWS",
-    "Heroku",
     "Git",
-    "Apollo",
     "Docker",
-    "Kubernetes",
-    "PostgreSQL",
-    "MongoDB",
-    "Firebase",
+    "Atlassian",
   ]
 
   const changeImg = language => {
@@ -152,28 +133,16 @@ const AboutMe = () => {
       {/* Text */}
       <Grid item xs={10} md={5}>
         <Typography display="inline" variant="body1">
-          I graduated from the <b>University of Waterloo</b> with a degree in
-          Computer Science in 2024.
+          I am a computer science student at the <b>University of Waterloo</b>.
           <br />
           <br />
-          I'm currently a software engineer at <b>SpaceX</b> in
-          <b> Seattle, Washington</b>.
+          I'm a fullstack developer always looking to learn new skills.
           <br />
           <br />
-          When I am not programming, I love swimming, martial arts, and&nbsp;
-        </Typography>
-        <Typography
-          onMouseEnter={() => changeImg("photography")}
-          onMouseLeave={() => changeImg("default")}
-          style={{ color: "grey" }}
-          display="inline"
-          variant="body1"
-        >
-          photography
+          When I am not programming, I love running, reading, and teaching.
         </Typography>
         <Typography display="inline" variant="body1">
-          ! I am a certified lifeguard and a black-belt in Tae-Kwon-Do. You can
-          reach me through any of the links below.
+          You can reach me through any of the links below.
         </Typography>
         <br />
         <Divider />
@@ -257,7 +226,7 @@ const AboutMe = () => {
             <a
               rel="noreferrer"
               target="_blank"
-              href="https://github.com/Kggupta"
+              href="https://github.com/emma-x1"
               className={classes.links}
             >
               <div className={classes.buttonSpacing}>
@@ -277,7 +246,7 @@ const AboutMe = () => {
             <a
               rel="noreferrer"
               target="_blank"
-              href="https://www.linkedin.com/in/keshavlgupta/"
+              href="https://www.linkedin.com/in/emma-xing-3a983a264/"
               className={classes.links}
             >
               <div className={classes.buttonSpacing}>
@@ -297,7 +266,7 @@ const AboutMe = () => {
             <a
               rel="noreferrer"
               target="_blank"
-              href="mailto:keshav.gupta@uwaterloo.ca"
+              href="mailto:emma.xing@uwaterloo.ca"
               className={classes.links}
             >
               <div className={classes.buttonSpacing}>
