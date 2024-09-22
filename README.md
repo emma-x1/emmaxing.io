@@ -1,7 +1,7 @@
 # Github Pages Personal Site
 ***
 
-The site is currently available on [kggupta.github.io](https://kggupta.github.io)
+The site is currently available on [LINK](LINK)
 
 ### Development Details
 
